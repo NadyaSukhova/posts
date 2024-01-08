@@ -5,8 +5,4 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   base: "/posts/",
   plugins: [vue()],
-  build: {
-    target: "esnext",
-  },
-  resolve: { alias: { vue: "vue/dist/vue.esm-bundler" } },
 });
